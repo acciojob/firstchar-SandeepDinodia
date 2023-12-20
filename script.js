@@ -1,5 +1,11 @@
 function firstChar(text) {
   // your code here
+	// for(let i=0; i<text.length; i++){
+		if(text[i]!=" "){
+			return text[0];
+		}
+	}
+	return "";
 }
 
 // Do not change the code below
